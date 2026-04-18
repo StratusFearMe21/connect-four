@@ -1,0 +1,30 @@
+// ai/mod.rs - AI module root with all AI strategies
+pub mod minimax;
+pub mod alphabeta;
+pub mod mcts;
+pub mod neural;
+pub mod heuristic;
+pub mod strategy;
+pub mod evaluation;
+pub mod transposition;
+pub mod zobrist;
+pub mod opening_book;
+pub mod endgame;
+pub mod time_management;
+pub mod parallel;
+pub mod ai_player;
+
+pub use minimax::*;
+pub use alphabeta::*;
+pub use mcts::*;
+pub use neural::*;
+pub use heuristic::*;
+pub use strategy::*;
+pub use evaluation::*;
+pub use transposition::*;
+pub use zobrist::*;
+pub use opening_book::*;
+pub use endgame::*;
+pub use time_management::*;
+pub use parallel::*;
+pub use ai_player::*;

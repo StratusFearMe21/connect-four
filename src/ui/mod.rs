@@ -1,0 +1,30 @@
+// ui/mod.rs - UI module root with all UI components
+pub mod theme;
+pub mod colors;
+pub mod style;
+pub mod widgets;
+pub mod layout;
+pub mod input;
+pub mod renderer;
+pub mod animation;
+pub mod effects;
+pub mod screen;
+pub mod popup;
+pub mod dialog;
+pub mod menu;
+pub mod status_bar;
+
+pub use theme::*;
+pub use colors::*;
+pub use style::*;
+pub use widgets::*;
+pub use layout::*;
+pub use input::*;
+pub use renderer::*;
+pub use animation::*;
+pub use effects::*;
+pub use screen::*;
+pub use popup::*;
+pub use dialog::*;
+pub use menu::*;
+pub use status_bar::*;
